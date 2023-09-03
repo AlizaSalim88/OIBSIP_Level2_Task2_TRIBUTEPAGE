@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    background-color: rgb(197, 195, 193);
+    margin: 0;
+    padding: 0;
+
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 700px;
+    width: 100%;
+}
+.head img{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.head h3{
+    font-size: 25px;
+    margin-top: -40px;
+    font-family: 'Poppins', sans-serif;;
+}
+.head h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.date{
+    font-size: 20px;
+    font-weight: 500;
+}
+.info{
+    max-width: 70vw;
+    width: 90%;
+    margin: 50px auto;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.info p{
+    padding: 5px;
+    padding: 7px;
+}
+.info span{
+    color:rgb(210, 54, 54);
+}
+.timeline{
+    max-width: 70vw;
+    width: 90%;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.time li{
+    margin: 5px;
+    padding: 9px;
+}
+.books{
+    max-width: 70vw;
+    width: 90%;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.book li{
+   list-style-type: decimal;
+   margin: 5px;
+   padding: 9px;
+}
+@media(max-width:625px){
+    .head img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .head h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .head{
+        width: 50vw;
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        margin: auto;
+    }
+    .info{
+        height:80vh
+    }
+}
+@media(max-width: 445px){
+    .head img{
+        width: 40vw;
+        height: 40vh;
+
+    }
+    
+    .info{
+        height: 100vh;
+    }
+}
+@media(max-width: 330px){
+    .head img{
+        width: 40vw;
+        height: 40vh;
+
+    }
+    
+    .info{
+        height: 100vh;
+    }
+}
+@media(max-width:530px){
+    .info{
+        height:90vh;
+    }
+}
+
+@media(max-width:380px){
+    .info{
+        height:100vh;
+    }
+    .head img{
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media(max-width:350px){
+    .info{
+        height:100vh;
+    }
+    .head img{
+        width: 30vw;
+        height: 30vw;
+    }
+}
+@media(max-width:285px){
+    .info{
+        height:130vh;
+    }
+    .head img{
+        width: 30vw;
+        height: 30vw;
+    }
+}
